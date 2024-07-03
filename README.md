@@ -24,5 +24,6 @@ Minimax algorithm เป็นอัลกอริธึมที่ใช้�
 4. Backpropagate Scores: คำนวณคะแนนที่ดีที่สุดจากการเดินแต่ละครั้งโดยใช้หลักการ Minimax.
 
 ## Design
-![image](https://github.com/BkBie/TicTacToe/assets/97974775/d1e6898b-9dcf-49eb-a20a-9082196d779a)
+![image](https://github.com/BkBie/TicTacToe/assets/97974775/93175c8c-de44-489f-9fb8-be12ab6556f7)
+
 
