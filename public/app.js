@@ -80,7 +80,8 @@ function checkWin() {
         });
 
         btnReset.removeAttribute("disabled");
-        btnSave.removeAttribute("disabled");
+        // ปิดการใช้งานการเชื่อมต่อฐานข้อมูล
+        // btnSave.removeAttribute("disabled");
     } else {
         let allMark_x = document.querySelectorAll(".mark_x");
         let allMark_o = document.querySelectorAll(".mark_o");
@@ -91,7 +92,8 @@ function checkWin() {
                 d.removeEventListener("click", clickMark);
             });
             btnReset.removeAttribute("disabled");
-            btnSave.removeAttribute("disabled");
+            // ปิดการใช้งานการเชื่อมต่อฐานข้อมูล
+            // btnSave.removeAttribute("disabled");
         }
     }
 }
