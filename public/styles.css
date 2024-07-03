@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+}
+
+#container {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container label {
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#info {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+
+}
+
+#playgrid {
+    display: grid;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: calc(90px / 3 * var(--input-box));
+}
+
+.mark_x::before {
+    content: "X";
+    font-size: inherit;
+    color: #142dacc8;
+    cursor: no-drop;
+}
+
+.mark_o::before {
+    content: "O";
+    font-size: inherit;
+    color: #fd2d2d;
+    cursor: no-drop;
+}
+
+#container #btnreset, #container #btnsave, #container #btnAi {
+    margin-top: 20px;
+    justify-items: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+#history-list {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#history-list li {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}

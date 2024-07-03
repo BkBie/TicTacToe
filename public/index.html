@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Tic Tac Toe</h1>
+            <label for="grid-size">Select grid size:</label>
+            <select id="grid-size">
+            <option value="3">3x3</option>
+            <option value="4">4x4</option>
+            <option value="5">5x5</option>
+            <option value="6">6x6</option>
+            </select>
+            <button id="btnAI">Play Against AI</button>
+            <span id="info"></span>
+            <div id="playgrid"></div>
+            <button type="button" id="btnreset">New Game</button>
+            <button type="button" id="btnsave" disabled>Save Game</button>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
